@@ -1,27 +1,23 @@
 {
-  "name": "1003-eslint",
+  "name": "animais-fantasticos",
   "version": "1.0.0",
-  "main": "index.js",
   "scripts": {
-    "build": "npx webpack --mode production /js/script.js",
-    "dev": "npx webpack --mode development /js/script.js --watch"
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch"
   },
-  "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^7.14.0",
-    "eslint-config-airbnb-base": "^14.2.1",
-    "eslint-config-prettier": "^6.15.0",
-    "eslint-plugin-import": "^2.22.1",
-    "webpack": "^5.6.0",
-    "webpack-cli": "^4.2.0"
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "eslint": "^5.5.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "webpack": "^4.17.2",
+    "webpack-cli": "^3.1.0"
   },
   "dependencies": {
-    "@babel/cli": "^7.12.7",
-    "@babel/core": "^7.12.7",
-    "@babel/polyfill": "^7.12.1",
-    "@babel/preset-env": "^7.12.7",
-    "whatwg-fetch": "^3.5.0"
-  },
-  "description": ""
+    "@babel/polyfill": "^7.0.0",
+    "whatwg-fetch": "^2.0.4"
+  }
 }
